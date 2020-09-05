@@ -1,0 +1,4 @@
+MONGODB=
+PORT=
+HOST_CORS=http://localhost
+PORT_CORS=8080
