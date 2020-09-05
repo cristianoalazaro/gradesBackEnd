@@ -24,12 +24,6 @@ const gradesSchema = db.mongoose.Schema({
   },
 });
 
-Schema.method('toJSON', () => {
-  const { __v, _id, ...object } = this.toObject();
-  object.id = _id;
-  return object;
-});
-
 const Grades = db.mongoose.model('students', gradesSchema);
 
 export default Grades;
