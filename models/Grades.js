@@ -1,5 +1,4 @@
 import { db } from '../models/index.js';
-import { Schema } from 'mongoose';
 
 const gradesSchema = db.mongoose.Schema({
   name: {
